@@ -1,0 +1,1791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbEstadoLocador.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbEstadoLocador.Items" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="cbEstadoLocador.Items1" xml:space="preserve">
+    <value>AL</value>
+  </data>
+  <data name="cbEstadoLocador.Items2" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="cbEstadoLocador.Items3" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="cbEstadoLocador.Items4" xml:space="preserve">
+    <value>BA</value>
+  </data>
+  <data name="cbEstadoLocador.Items5" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="cbEstadoLocador.Items6" xml:space="preserve">
+    <value>DF</value>
+  </data>
+  <data name="cbEstadoLocador.Items7" xml:space="preserve">
+    <value>ES</value>
+  </data>
+  <data name="cbEstadoLocador.Items8" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="cbEstadoLocador.Items9" xml:space="preserve">
+    <value>MA</value>
+  </data>
+  <data name="cbEstadoLocador.Items10" xml:space="preserve">
+    <value>MT</value>
+  </data>
+  <data name="cbEstadoLocador.Items11" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="cbEstadoLocador.Items12" xml:space="preserve">
+    <value>MG</value>
+  </data>
+  <data name="cbEstadoLocador.Items13" xml:space="preserve">
+    <value>PA</value>
+  </data>
+  <data name="cbEstadoLocador.Items14" xml:space="preserve">
+    <value>PB</value>
+  </data>
+  <data name="cbEstadoLocador.Items15" xml:space="preserve">
+    <value>PR</value>
+  </data>
+  <data name="cbEstadoLocador.Items16" xml:space="preserve">
+    <value>PE</value>
+  </data>
+  <data name="cbEstadoLocador.Items17" xml:space="preserve">
+    <value>PI</value>
+  </data>
+  <data name="cbEstadoLocador.Items18" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="cbEstadoLocador.Items19" xml:space="preserve">
+    <value>RO</value>
+  </data>
+  <data name="cbEstadoLocador.Items20" xml:space="preserve">
+    <value>RJ</value>
+  </data>
+  <data name="cbEstadoLocador.Items21" xml:space="preserve">
+    <value>RN</value>
+  </data>
+  <data name="cbEstadoLocador.Items22" xml:space="preserve">
+    <value>RS</value>
+  </data>
+  <data name="cbEstadoLocador.Items23" xml:space="preserve">
+    <value>SC</value>
+  </data>
+  <data name="cbEstadoLocador.Items24" xml:space="preserve">
+    <value>SP</value>
+  </data>
+  <data name="cbEstadoLocador.Items25" xml:space="preserve">
+    <value>SE</value>
+  </data>
+  <data name="cbEstadoLocador.Items26" xml:space="preserve">
+    <value>TO</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cbEstadoLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 172</value>
+  </data>
+  <data name="cbEstadoLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 27</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbEstadoLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoLocador.Name" xml:space="preserve">
+    <value>cbEstadoLocador</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoLocador.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 148</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 19</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtCidadeLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 172</value>
+  </data>
+  <data name="txtCidadeLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 26</value>
+  </data>
+  <data name="txtCidadeLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtCidadeLocador.Name" xml:space="preserve">
+    <value>txtCidadeLocador</value>
+  </data>
+  <data name="&gt;&gt;txtCidadeLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCidadeLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;txtCidadeLocador.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 150</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Cidade:</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbEstadoCivilLocador.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbEstadoCivilLocador.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEstadoCivilLocador.Items1" xml:space="preserve">
+    <value>Casado</value>
+  </data>
+  <data name="cbEstadoCivilLocador.Items2" xml:space="preserve">
+    <value>Divorciado</value>
+  </data>
+  <data name="cbEstadoCivilLocador.Items3" xml:space="preserve">
+    <value>Solteiro</value>
+  </data>
+  <data name="cbEstadoCivilLocador.Items4" xml:space="preserve">
+    <value>Viúvo</value>
+  </data>
+  <data name="cbEstadoCivilLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 108</value>
+  </data>
+  <data name="cbEstadoCivilLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 27</value>
+  </data>
+  <data name="cbEstadoCivilLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoCivilLocador.Name" xml:space="preserve">
+    <value>cbEstadoCivilLocador</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoCivilLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoCivilLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoCivilLocador.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtBairroLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 172</value>
+  </data>
+  <data name="txtBairroLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 26</value>
+  </data>
+  <data name="txtBairroLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txtBairroLocador.Name" xml:space="preserve">
+    <value>txtBairroLocador</value>
+  </data>
+  <data name="&gt;&gt;txtBairroLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBairroLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;txtBairroLocador.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 150</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 19</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Bairro:</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtNumeroLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 109</value>
+  </data>
+  <data name="txtNumeroLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="txtNumeroLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroLocador.Name" xml:space="preserve">
+    <value>txtNumeroLocador</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroLocador.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>850, 87</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Número:</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtEnderecoLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 109</value>
+  </data>
+  <data name="txtEnderecoLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 26</value>
+  </data>
+  <data name="txtEnderecoLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtEnderecoLocador.Name" xml:space="preserve">
+    <value>txtEnderecoLocador</value>
+  </data>
+  <data name="&gt;&gt;txtEnderecoLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEnderecoLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;txtEnderecoLocador.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 87</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 19</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Endereço:</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtRGLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 108</value>
+  </data>
+  <data name="txtRGLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 26</value>
+  </data>
+  <data name="txtRGLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtRGLocador.Name" xml:space="preserve">
+    <value>txtRGLocador</value>
+  </data>
+  <data name="&gt;&gt;txtRGLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRGLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;txtRGLocador.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 86</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 19</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>RG:</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 86</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 19</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="mkCPFLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 108</value>
+  </data>
+  <data name="mkCPFLocador.Mask" xml:space="preserve">
+    <value>000.000.000-00</value>
+  </data>
+  <data name="mkCPFLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 26</value>
+  </data>
+  <data name="mkCPFLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;mkCPFLocador.Name" xml:space="preserve">
+    <value>mkCPFLocador</value>
+  </data>
+  <data name="&gt;&gt;mkCPFLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mkCPFLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;mkCPFLocador.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cbGeneroLocador.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbGeneroLocador.Items" xml:space="preserve">
+    <value>Feminino</value>
+  </data>
+  <data name="cbGeneroLocador.Items1" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="cbGeneroLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 45</value>
+  </data>
+  <data name="cbGeneroLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 27</value>
+  </data>
+  <data name="cbGeneroLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cbGeneroLocador.Name" xml:space="preserve">
+    <value>cbGeneroLocador</value>
+  </data>
+  <data name="&gt;&gt;cbGeneroLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbGeneroLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;cbGeneroLocador.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>773, 22</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 19</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Gênero</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 84</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 19</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Estado Civil:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtNacionalidadeLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 46</value>
+  </data>
+  <data name="txtNacionalidadeLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 26</value>
+  </data>
+  <data name="txtNacionalidadeLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtNacionalidadeLocador.Name" xml:space="preserve">
+    <value>txtNacionalidadeLocador</value>
+  </data>
+  <data name="&gt;&gt;txtNacionalidadeLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNacionalidadeLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;txtNacionalidadeLocador.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 24</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Nacionalidade:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="txtNomeLocador.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 46</value>
+  </data>
+  <data name="txtNomeLocador.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 26</value>
+  </data>
+  <data name="txtNomeLocador.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtNomeLocador.Name" xml:space="preserve">
+    <value>txtNomeLocador</value>
+  </data>
+  <data name="&gt;&gt;txtNomeLocador.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNomeLocador.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;txtNomeLocador.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 24</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 19</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="gpLocator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 14</value>
+  </data>
+  <data name="gpLocator.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="gpLocator.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="gpLocator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1005, 216</value>
+  </data>
+  <data name="gpLocator.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gpLocator.Text" xml:space="preserve">
+    <value>Locator</value>
+  </data>
+  <data name="&gt;&gt;gpLocator.Name" xml:space="preserve">
+    <value>gpLocator</value>
+  </data>
+  <data name="&gt;&gt;gpLocator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpLocator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gpLocator.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtEstadoLocatario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="txtEstadoLocatario.Items" xml:space="preserve">
+    <value>AC</value>
+  </data>
+  <data name="txtEstadoLocatario.Items1" xml:space="preserve">
+    <value>AL</value>
+  </data>
+  <data name="txtEstadoLocatario.Items2" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="txtEstadoLocatario.Items3" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="txtEstadoLocatario.Items4" xml:space="preserve">
+    <value>BA</value>
+  </data>
+  <data name="txtEstadoLocatario.Items5" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="txtEstadoLocatario.Items6" xml:space="preserve">
+    <value>DF</value>
+  </data>
+  <data name="txtEstadoLocatario.Items7" xml:space="preserve">
+    <value>ES</value>
+  </data>
+  <data name="txtEstadoLocatario.Items8" xml:space="preserve">
+    <value>GO</value>
+  </data>
+  <data name="txtEstadoLocatario.Items9" xml:space="preserve">
+    <value>MA</value>
+  </data>
+  <data name="txtEstadoLocatario.Items10" xml:space="preserve">
+    <value>MT</value>
+  </data>
+  <data name="txtEstadoLocatario.Items11" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="txtEstadoLocatario.Items12" xml:space="preserve">
+    <value>MG</value>
+  </data>
+  <data name="txtEstadoLocatario.Items13" xml:space="preserve">
+    <value>PA</value>
+  </data>
+  <data name="txtEstadoLocatario.Items14" xml:space="preserve">
+    <value>PB</value>
+  </data>
+  <data name="txtEstadoLocatario.Items15" xml:space="preserve">
+    <value>PR</value>
+  </data>
+  <data name="txtEstadoLocatario.Items16" xml:space="preserve">
+    <value>PE</value>
+  </data>
+  <data name="txtEstadoLocatario.Items17" xml:space="preserve">
+    <value>PI</value>
+  </data>
+  <data name="txtEstadoLocatario.Items18" xml:space="preserve">
+    <value>RR</value>
+  </data>
+  <data name="txtEstadoLocatario.Items19" xml:space="preserve">
+    <value>RO</value>
+  </data>
+  <data name="txtEstadoLocatario.Items20" xml:space="preserve">
+    <value>RJ</value>
+  </data>
+  <data name="txtEstadoLocatario.Items21" xml:space="preserve">
+    <value>RN</value>
+  </data>
+  <data name="txtEstadoLocatario.Items22" xml:space="preserve">
+    <value>RS</value>
+  </data>
+  <data name="txtEstadoLocatario.Items23" xml:space="preserve">
+    <value>SC</value>
+  </data>
+  <data name="txtEstadoLocatario.Items24" xml:space="preserve">
+    <value>SP</value>
+  </data>
+  <data name="txtEstadoLocatario.Items25" xml:space="preserve">
+    <value>SE</value>
+  </data>
+  <data name="txtEstadoLocatario.Items26" xml:space="preserve">
+    <value>TO</value>
+  </data>
+  <data name="txtEstadoLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 172</value>
+  </data>
+  <data name="txtEstadoLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 27</value>
+  </data>
+  <data name="txtEstadoLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;txtEstadoLocatario.Name" xml:space="preserve">
+    <value>txtEstadoLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtEstadoLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEstadoLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtEstadoLocatario.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 148</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 19</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtCidadeLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 172</value>
+  </data>
+  <data name="txtCidadeLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 26</value>
+  </data>
+  <data name="txtCidadeLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;txtCidadeLocatario.Name" xml:space="preserve">
+    <value>txtCidadeLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtCidadeLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCidadeLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtCidadeLocatario.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 150</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Cidade:</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbEstadoCivilLocatario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbEstadoCivilLocatario.Items" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbEstadoCivilLocatario.Items1" xml:space="preserve">
+    <value>Casado</value>
+  </data>
+  <data name="cbEstadoCivilLocatario.Items2" xml:space="preserve">
+    <value>Divorciado</value>
+  </data>
+  <data name="cbEstadoCivilLocatario.Items3" xml:space="preserve">
+    <value>Solteiro</value>
+  </data>
+  <data name="cbEstadoCivilLocatario.Items4" xml:space="preserve">
+    <value>Viúvo</value>
+  </data>
+  <data name="cbEstadoCivilLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 108</value>
+  </data>
+  <data name="cbEstadoCivilLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 27</value>
+  </data>
+  <data name="cbEstadoCivilLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoCivilLocatario.Name" xml:space="preserve">
+    <value>cbEstadoCivilLocatario</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoCivilLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoCivilLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;cbEstadoCivilLocatario.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtBairroLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 172</value>
+  </data>
+  <data name="txtBairroLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 26</value>
+  </data>
+  <data name="txtBairroLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txtBairroLocatario.Name" xml:space="preserve">
+    <value>txtBairroLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtBairroLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBairroLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtBairroLocatario.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 150</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 19</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Bairro:</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtNumeroLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>854, 109</value>
+  </data>
+  <data name="txtNumeroLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="txtNumeroLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroLocatario.Name" xml:space="preserve">
+    <value>txtNumeroLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroLocatario.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>850, 87</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 19</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Número:</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtEnderecoLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 109</value>
+  </data>
+  <data name="txtEnderecoLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 26</value>
+  </data>
+  <data name="txtEnderecoLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtEnderecoLocatario.Name" xml:space="preserve">
+    <value>txtEnderecoLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtEnderecoLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEnderecoLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtEnderecoLocatario.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 87</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 19</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Endereço:</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtRgLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 108</value>
+  </data>
+  <data name="txtRgLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 26</value>
+  </data>
+  <data name="txtRgLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtRgLocatario.Name" xml:space="preserve">
+    <value>txtRgLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtRgLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRgLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtRgLocatario.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 86</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 19</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>RG:</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 86</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 19</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="mkCPFLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 108</value>
+  </data>
+  <data name="mkCPFLocatario.Mask" xml:space="preserve">
+    <value>000.000.000-00</value>
+  </data>
+  <data name="mkCPFLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 26</value>
+  </data>
+  <data name="mkCPFLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;mkCPFLocatario.Name" xml:space="preserve">
+    <value>mkCPFLocatario</value>
+  </data>
+  <data name="&gt;&gt;mkCPFLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MaskedTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mkCPFLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;mkCPFLocatario.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="cbGeneroLocatario.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cbGeneroLocatario.Items" xml:space="preserve">
+    <value>Feminino</value>
+  </data>
+  <data name="cbGeneroLocatario.Items1" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="cbGeneroLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 45</value>
+  </data>
+  <data name="cbGeneroLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 27</value>
+  </data>
+  <data name="cbGeneroLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cbGeneroLocatario.Name" xml:space="preserve">
+    <value>cbGeneroLocatario</value>
+  </data>
+  <data name="&gt;&gt;cbGeneroLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbGeneroLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;cbGeneroLocatario.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>773, 22</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 19</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Gênero</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 84</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 19</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Estado Civil:</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtNacionalidadeLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 46</value>
+  </data>
+  <data name="txtNacionalidadeLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 26</value>
+  </data>
+  <data name="txtNacionalidadeLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtNacionalidadeLocatario.Name" xml:space="preserve">
+    <value>txtNacionalidadeLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtNacionalidadeLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNacionalidadeLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtNacionalidadeLocatario.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 24</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Nacionalidade:</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="txtNomeLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 46</value>
+  </data>
+  <data name="txtNomeLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 26</value>
+  </data>
+  <data name="txtNomeLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtNomeLocatario.Name" xml:space="preserve">
+    <value>txtNomeLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtNomeLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNomeLocatario.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;txtNomeLocatario.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 24</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 19</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Nome:</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="gpLocatario.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 240</value>
+  </data>
+  <data name="gpLocatario.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="gpLocatario.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="gpLocatario.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1005, 216</value>
+  </data>
+  <data name="gpLocatario.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="gpLocatario.Text" xml:space="preserve">
+    <value>Locatário</value>
+  </data>
+  <data name="&gt;&gt;gpLocatario.Name" xml:space="preserve">
+    <value>gpLocatario</value>
+  </data>
+  <data name="&gt;&gt;gpLocatario.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gpLocatario.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gpLocatario.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numPrazoLocacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 46</value>
+  </data>
+  <data name="numPrazoLocacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="numPrazoLocacao.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="numPrazoLocacao.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;numPrazoLocacao.Name" xml:space="preserve">
+    <value>numPrazoLocacao</value>
+  </data>
+  <data name="&gt;&gt;numPrazoLocacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numPrazoLocacao.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;numPrazoLocacao.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dtFinalLocacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 46</value>
+  </data>
+  <data name="dtFinalLocacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 26</value>
+  </data>
+  <data name="dtFinalLocacao.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;dtFinalLocacao.Name" xml:space="preserve">
+    <value>dtFinalLocacao</value>
+  </data>
+  <data name="&gt;&gt;dtFinalLocacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtFinalLocacao.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;dtFinalLocacao.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtInicioLocacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 46</value>
+  </data>
+  <data name="dtInicioLocacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 26</value>
+  </data>
+  <data name="dtInicioLocacao.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;dtInicioLocacao.Name" xml:space="preserve">
+    <value>dtInicioLocacao</value>
+  </data>
+  <data name="&gt;&gt;dtInicioLocacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtInicioLocacao.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;dtInicioLocacao.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtForoComarca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 46</value>
+  </data>
+  <data name="txtForoComarca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 26</value>
+  </data>
+  <data name="txtForoComarca.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtForoComarca.Name" xml:space="preserve">
+    <value>txtForoComarca</value>
+  </data>
+  <data name="&gt;&gt;txtForoComarca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtForoComarca.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;txtForoComarca.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 24</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 19</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Foro da Comarca:</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtValorMensal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 46</value>
+  </data>
+  <data name="txtValorMensal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 26</value>
+  </data>
+  <data name="txtValorMensal.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtValorMensal.Name" xml:space="preserve">
+    <value>txtValorMensal</value>
+  </data>
+  <data name="&gt;&gt;txtValorMensal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtValorMensal.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;txtValorMensal.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 20</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 19</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Valor Mensal:</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label28.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 24</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 19</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Início da Locação:</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 24</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 19</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Final da Locação</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 24</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 19</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Prazo de Locação</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 466</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1005, 85</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnGerarContrato.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnGerarContrato.Location" type="System.Drawing.Point, System.Drawing">
+    <value>825, 559</value>
+  </data>
+  <data name="btnGerarContrato.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 49</value>
+  </data>
+  <data name="btnGerarContrato.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btnGerarContrato.Text" xml:space="preserve">
+    <value>Gerar Contrato</value>
+  </data>
+  <data name="&gt;&gt;btnGerarContrato.Name" xml:space="preserve">
+    <value>btnGerarContrato</value>
+  </data>
+  <data name="&gt;&gt;btnGerarContrato.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnGerarContrato.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGerarContrato.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1029, 620</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Contrato de Locação</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmContratoLocacao</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
