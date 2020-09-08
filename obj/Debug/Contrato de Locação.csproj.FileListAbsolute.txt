@@ -69,3 +69,4 @@ C:\Users\val\Desktop\my-project\Contrato de Locação\obj\Debug\RdlCompile.compi
 C:\Users\val\Desktop\my-project\Contrato de Locação\obj\Debug\Contrato de Locação.csproj.CopyComplete
 C:\Users\val\Desktop\my-project\Contrato de Locação\obj\Debug\Contrato de Locação.exe
 C:\Users\val\Desktop\my-project\Contrato de Locação\obj\Debug\Contrato de Locação.pdb
+C:\Users\val\Desktop\my-project\Contrato de Locação\obj\Debug\Contrato_de_Locação.FrmLocalImovel.resources

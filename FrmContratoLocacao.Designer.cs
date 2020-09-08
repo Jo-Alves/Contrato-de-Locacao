@@ -29,7 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmContratoLocacao));
-            this.gpLocator = new System.Windows.Forms.GroupBox();
+            this.gpLocador = new System.Windows.Forms.GroupBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.btnBuscarCepLocador = new System.Windows.Forms.Button();
+            this.mkCEPLocador = new System.Windows.Forms.MaskedTextBox();
+            this.txtNumeroLocador = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.cbEstadoLocador = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.txtCidadeLocador = new System.Windows.Forms.TextBox();
@@ -37,8 +42,6 @@
             this.cbEstadoCivilLocador = new System.Windows.Forms.ComboBox();
             this.txtBairroLocador = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.txtNumeroLocador = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.txtEnderecoLocador = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtRGLocador = new System.Windows.Forms.TextBox();
@@ -53,8 +56,11 @@
             this.txtNomeLocador = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.gpLocatario = new System.Windows.Forms.GroupBox();
-            this.txtEstadoLocatario = new System.Windows.Forms.ComboBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.cbEstadoLocatario = new System.Windows.Forms.ComboBox();
+            this.btnBuscarCepLocatario = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
+            this.mkCEPLocatario = new System.Windows.Forms.MaskedTextBox();
             this.txtCidadeLocatario = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.cbEstadoCivilLocatario = new System.Windows.Forms.ComboBox();
@@ -76,6 +82,8 @@
             this.txtNomeLocatario = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.numVencimento = new System.Windows.Forms.NumericUpDown();
+            this.label24 = new System.Windows.Forms.Label();
             this.numPrazoLocacao = new System.Windows.Forms.NumericUpDown();
             this.dtFinalLocacao = new System.Windows.Forms.DateTimePicker();
             this.dtInicioLocacao = new System.Windows.Forms.DateTimePicker();
@@ -87,46 +95,83 @@
             this.label29 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.btnGerarContrato = new System.Windows.Forms.Button();
-            this.gpLocator.SuspendLayout();
+            this.label23 = new System.Windows.Forms.Label();
+            this.rtbObservacao = new System.Windows.Forms.RichTextBox();
+            this.gpLocador.SuspendLayout();
             this.gpLocatario.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numVencimento)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numPrazoLocacao)).BeginInit();
             this.SuspendLayout();
             // 
-            // gpLocator
+            // gpLocador
             // 
-            this.gpLocator.Controls.Add(this.cbEstadoLocador);
-            this.gpLocator.Controls.Add(this.label11);
-            this.gpLocator.Controls.Add(this.txtCidadeLocador);
-            this.gpLocator.Controls.Add(this.label10);
-            this.gpLocator.Controls.Add(this.cbEstadoCivilLocador);
-            this.gpLocator.Controls.Add(this.txtBairroLocador);
-            this.gpLocator.Controls.Add(this.label9);
-            this.gpLocator.Controls.Add(this.txtNumeroLocador);
-            this.gpLocator.Controls.Add(this.label8);
-            this.gpLocator.Controls.Add(this.txtEnderecoLocador);
-            this.gpLocator.Controls.Add(this.label7);
-            this.gpLocator.Controls.Add(this.txtRGLocador);
-            this.gpLocator.Controls.Add(this.label6);
-            this.gpLocator.Controls.Add(this.label5);
-            this.gpLocator.Controls.Add(this.mkCPFLocador);
-            this.gpLocator.Controls.Add(this.cbGeneroLocador);
-            this.gpLocator.Controls.Add(this.label4);
-            this.gpLocator.Controls.Add(this.label3);
-            this.gpLocator.Controls.Add(this.txtNacionalidadeLocador);
-            this.gpLocator.Controls.Add(this.label2);
-            this.gpLocator.Controls.Add(this.txtNomeLocador);
-            this.gpLocator.Controls.Add(this.label1);
-            this.gpLocator.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.gpLocator, "gpLocator");
-            this.gpLocator.Name = "gpLocator";
-            this.gpLocator.TabStop = false;
+            this.gpLocador.Controls.Add(this.label25);
+            this.gpLocador.Controls.Add(this.btnBuscarCepLocador);
+            this.gpLocador.Controls.Add(this.mkCEPLocador);
+            this.gpLocador.Controls.Add(this.txtNumeroLocador);
+            this.gpLocador.Controls.Add(this.label8);
+            this.gpLocador.Controls.Add(this.cbEstadoLocador);
+            this.gpLocador.Controls.Add(this.label11);
+            this.gpLocador.Controls.Add(this.txtCidadeLocador);
+            this.gpLocador.Controls.Add(this.label10);
+            this.gpLocador.Controls.Add(this.cbEstadoCivilLocador);
+            this.gpLocador.Controls.Add(this.txtBairroLocador);
+            this.gpLocador.Controls.Add(this.label9);
+            this.gpLocador.Controls.Add(this.txtEnderecoLocador);
+            this.gpLocador.Controls.Add(this.label7);
+            this.gpLocador.Controls.Add(this.txtRGLocador);
+            this.gpLocador.Controls.Add(this.label6);
+            this.gpLocador.Controls.Add(this.label5);
+            this.gpLocador.Controls.Add(this.mkCPFLocador);
+            this.gpLocador.Controls.Add(this.cbGeneroLocador);
+            this.gpLocador.Controls.Add(this.label4);
+            this.gpLocador.Controls.Add(this.label3);
+            this.gpLocador.Controls.Add(this.txtNacionalidadeLocador);
+            this.gpLocador.Controls.Add(this.label2);
+            this.gpLocador.Controls.Add(this.txtNomeLocador);
+            this.gpLocador.Controls.Add(this.label1);
+            this.gpLocador.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.gpLocador, "gpLocador");
+            this.gpLocador.Name = "gpLocador";
+            this.gpLocador.TabStop = false;
+            // 
+            // label25
+            // 
+            resources.ApplyResources(this.label25, "label25");
+            this.label25.Name = "label25";
+            // 
+            // btnBuscarCepLocador
+            // 
+            this.btnBuscarCepLocador.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnBuscarCepLocador, "btnBuscarCepLocador");
+            this.btnBuscarCepLocador.Name = "btnBuscarCepLocador";
+            this.btnBuscarCepLocador.TabStop = false;
+            this.btnBuscarCepLocador.UseVisualStyleBackColor = false;
+            this.btnBuscarCepLocador.Click += new System.EventHandler(this.btnBuscarCepLocador_Click);
+            // 
+            // mkCEPLocador
+            // 
+            resources.ApplyResources(this.mkCEPLocador, "mkCEPLocador");
+            this.mkCEPLocador.Name = "mkCEPLocador";
+            // 
+            // txtNumeroLocador
+            // 
+            this.txtNumeroLocador.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtNumeroLocador, "txtNumeroLocador");
+            this.txtNumeroLocador.Name = "txtNumeroLocador";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.Name = "label8";
             // 
             // cbEstadoLocador
             // 
             this.cbEstadoLocador.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.cbEstadoLocador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             resources.ApplyResources(this.cbEstadoLocador, "cbEstadoLocador");
+            this.cbEstadoLocador.ForeColor = System.Drawing.Color.White;
             this.cbEstadoLocador.FormattingEnabled = true;
             this.cbEstadoLocador.Items.AddRange(new object[] {
             resources.GetString("cbEstadoLocador.Items"),
@@ -177,8 +222,8 @@
             // cbEstadoCivilLocador
             // 
             this.cbEstadoCivilLocador.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.cbEstadoCivilLocador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             resources.ApplyResources(this.cbEstadoCivilLocador, "cbEstadoCivilLocador");
+            this.cbEstadoCivilLocador.ForeColor = System.Drawing.Color.White;
             this.cbEstadoCivilLocador.FormattingEnabled = true;
             this.cbEstadoCivilLocador.Items.AddRange(new object[] {
             resources.GetString("cbEstadoCivilLocador.Items"),
@@ -198,17 +243,6 @@
             // 
             resources.ApplyResources(this.label9, "label9");
             this.label9.Name = "label9";
-            // 
-            // txtNumeroLocador
-            // 
-            this.txtNumeroLocador.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.txtNumeroLocador, "txtNumeroLocador");
-            this.txtNumeroLocador.Name = "txtNumeroLocador";
-            // 
-            // label8
-            // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.Name = "label8";
             // 
             // txtEnderecoLocador
             // 
@@ -241,17 +275,20 @@
             // 
             resources.ApplyResources(this.mkCPFLocador, "mkCPFLocador");
             this.mkCPFLocador.Name = "mkCPFLocador";
+            this.mkCPFLocador.Leave += new System.EventHandler(this.mkCPFLocador_Leave);
             // 
             // cbGeneroLocador
             // 
             this.cbGeneroLocador.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.cbGeneroLocador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             resources.ApplyResources(this.cbGeneroLocador, "cbGeneroLocador");
+            this.cbGeneroLocador.ForeColor = System.Drawing.Color.White;
             this.cbGeneroLocador.FormattingEnabled = true;
             this.cbGeneroLocador.Items.AddRange(new object[] {
             resources.GetString("cbGeneroLocador.Items"),
             resources.GetString("cbGeneroLocador.Items1")});
             this.cbGeneroLocador.Name = "cbGeneroLocador";
+            this.cbGeneroLocador.SelectedIndexChanged += new System.EventHandler(this.cbGeneroLocador_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -287,8 +324,11 @@
             // 
             // gpLocatario
             // 
-            this.gpLocatario.Controls.Add(this.txtEstadoLocatario);
+            this.gpLocatario.Controls.Add(this.label30);
+            this.gpLocatario.Controls.Add(this.cbEstadoLocatario);
+            this.gpLocatario.Controls.Add(this.btnBuscarCepLocatario);
             this.gpLocatario.Controls.Add(this.label12);
+            this.gpLocatario.Controls.Add(this.mkCEPLocatario);
             this.gpLocatario.Controls.Add(this.txtCidadeLocatario);
             this.gpLocatario.Controls.Add(this.label13);
             this.gpLocatario.Controls.Add(this.cbEstadoCivilLocatario);
@@ -314,46 +354,66 @@
             this.gpLocatario.Name = "gpLocatario";
             this.gpLocatario.TabStop = false;
             // 
-            // txtEstadoLocatario
+            // label30
             // 
-            this.txtEstadoLocatario.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtEstadoLocatario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            resources.ApplyResources(this.txtEstadoLocatario, "txtEstadoLocatario");
-            this.txtEstadoLocatario.FormattingEnabled = true;
-            this.txtEstadoLocatario.Items.AddRange(new object[] {
-            resources.GetString("txtEstadoLocatario.Items"),
-            resources.GetString("txtEstadoLocatario.Items1"),
-            resources.GetString("txtEstadoLocatario.Items2"),
-            resources.GetString("txtEstadoLocatario.Items3"),
-            resources.GetString("txtEstadoLocatario.Items4"),
-            resources.GetString("txtEstadoLocatario.Items5"),
-            resources.GetString("txtEstadoLocatario.Items6"),
-            resources.GetString("txtEstadoLocatario.Items7"),
-            resources.GetString("txtEstadoLocatario.Items8"),
-            resources.GetString("txtEstadoLocatario.Items9"),
-            resources.GetString("txtEstadoLocatario.Items10"),
-            resources.GetString("txtEstadoLocatario.Items11"),
-            resources.GetString("txtEstadoLocatario.Items12"),
-            resources.GetString("txtEstadoLocatario.Items13"),
-            resources.GetString("txtEstadoLocatario.Items14"),
-            resources.GetString("txtEstadoLocatario.Items15"),
-            resources.GetString("txtEstadoLocatario.Items16"),
-            resources.GetString("txtEstadoLocatario.Items17"),
-            resources.GetString("txtEstadoLocatario.Items18"),
-            resources.GetString("txtEstadoLocatario.Items19"),
-            resources.GetString("txtEstadoLocatario.Items20"),
-            resources.GetString("txtEstadoLocatario.Items21"),
-            resources.GetString("txtEstadoLocatario.Items22"),
-            resources.GetString("txtEstadoLocatario.Items23"),
-            resources.GetString("txtEstadoLocatario.Items24"),
-            resources.GetString("txtEstadoLocatario.Items25"),
-            resources.GetString("txtEstadoLocatario.Items26")});
-            this.txtEstadoLocatario.Name = "txtEstadoLocatario";
+            resources.ApplyResources(this.label30, "label30");
+            this.label30.Name = "label30";
+            // 
+            // cbEstadoLocatario
+            // 
+            this.cbEstadoLocatario.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.cbEstadoLocatario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.cbEstadoLocatario, "cbEstadoLocatario");
+            this.cbEstadoLocatario.ForeColor = System.Drawing.Color.White;
+            this.cbEstadoLocatario.FormattingEnabled = true;
+            this.cbEstadoLocatario.Items.AddRange(new object[] {
+            resources.GetString("cbEstadoLocatario.Items"),
+            resources.GetString("cbEstadoLocatario.Items1"),
+            resources.GetString("cbEstadoLocatario.Items2"),
+            resources.GetString("cbEstadoLocatario.Items3"),
+            resources.GetString("cbEstadoLocatario.Items4"),
+            resources.GetString("cbEstadoLocatario.Items5"),
+            resources.GetString("cbEstadoLocatario.Items6"),
+            resources.GetString("cbEstadoLocatario.Items7"),
+            resources.GetString("cbEstadoLocatario.Items8"),
+            resources.GetString("cbEstadoLocatario.Items9"),
+            resources.GetString("cbEstadoLocatario.Items10"),
+            resources.GetString("cbEstadoLocatario.Items11"),
+            resources.GetString("cbEstadoLocatario.Items12"),
+            resources.GetString("cbEstadoLocatario.Items13"),
+            resources.GetString("cbEstadoLocatario.Items14"),
+            resources.GetString("cbEstadoLocatario.Items15"),
+            resources.GetString("cbEstadoLocatario.Items16"),
+            resources.GetString("cbEstadoLocatario.Items17"),
+            resources.GetString("cbEstadoLocatario.Items18"),
+            resources.GetString("cbEstadoLocatario.Items19"),
+            resources.GetString("cbEstadoLocatario.Items20"),
+            resources.GetString("cbEstadoLocatario.Items21"),
+            resources.GetString("cbEstadoLocatario.Items22"),
+            resources.GetString("cbEstadoLocatario.Items23"),
+            resources.GetString("cbEstadoLocatario.Items24"),
+            resources.GetString("cbEstadoLocatario.Items25"),
+            resources.GetString("cbEstadoLocatario.Items26")});
+            this.cbEstadoLocatario.Name = "cbEstadoLocatario";
+            // 
+            // btnBuscarCepLocatario
+            // 
+            this.btnBuscarCepLocatario.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.btnBuscarCepLocatario, "btnBuscarCepLocatario");
+            this.btnBuscarCepLocatario.Name = "btnBuscarCepLocatario";
+            this.btnBuscarCepLocatario.TabStop = false;
+            this.btnBuscarCepLocatario.UseVisualStyleBackColor = false;
+            this.btnBuscarCepLocatario.Click += new System.EventHandler(this.btnBuscarCepLocatario_Click);
             // 
             // label12
             // 
             resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
+            // 
+            // mkCEPLocatario
+            // 
+            resources.ApplyResources(this.mkCEPLocatario, "mkCEPLocatario");
+            this.mkCEPLocatario.Name = "mkCEPLocatario";
             // 
             // txtCidadeLocatario
             // 
@@ -369,8 +429,8 @@
             // cbEstadoCivilLocatario
             // 
             this.cbEstadoCivilLocatario.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.cbEstadoCivilLocatario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             resources.ApplyResources(this.cbEstadoCivilLocatario, "cbEstadoCivilLocatario");
+            this.cbEstadoCivilLocatario.ForeColor = System.Drawing.Color.White;
             this.cbEstadoCivilLocatario.FormattingEnabled = true;
             this.cbEstadoCivilLocatario.Items.AddRange(new object[] {
             resources.GetString("cbEstadoCivilLocatario.Items"),
@@ -433,17 +493,20 @@
             // 
             resources.ApplyResources(this.mkCPFLocatario, "mkCPFLocatario");
             this.mkCPFLocatario.Name = "mkCPFLocatario";
+            this.mkCPFLocatario.Leave += new System.EventHandler(this.mkCPFLocatario_Leave);
             // 
             // cbGeneroLocatario
             // 
             this.cbGeneroLocatario.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.cbGeneroLocatario.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             resources.ApplyResources(this.cbGeneroLocatario, "cbGeneroLocatario");
+            this.cbGeneroLocatario.ForeColor = System.Drawing.Color.White;
             this.cbGeneroLocatario.FormattingEnabled = true;
             this.cbGeneroLocatario.Items.AddRange(new object[] {
             resources.GetString("cbGeneroLocatario.Items"),
             resources.GetString("cbGeneroLocatario.Items1")});
             this.cbGeneroLocatario.Name = "cbGeneroLocatario";
+            this.cbGeneroLocatario.SelectedIndexChanged += new System.EventHandler(this.cbGeneroLocatario_SelectedIndexChanged);
             // 
             // label19
             // 
@@ -479,6 +542,8 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.numVencimento);
+            this.groupBox3.Controls.Add(this.label24);
             this.groupBox3.Controls.Add(this.numPrazoLocacao);
             this.groupBox3.Controls.Add(this.dtFinalLocacao);
             this.groupBox3.Controls.Add(this.dtInicioLocacao);
@@ -494,14 +559,41 @@
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
+            // numVencimento
+            // 
+            this.numVencimento.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.numVencimento, "numVencimento");
+            this.numVencimento.Maximum = new decimal(new int[] {
+            31,
+            0,
+            0,
+            0});
+            this.numVencimento.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numVencimento.Name = "numVencimento";
+            this.numVencimento.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label24
+            // 
+            resources.ApplyResources(this.label24, "label24");
+            this.label24.Name = "label24";
+            // 
             // numPrazoLocacao
             // 
-            this.numPrazoLocacao.Increment = new decimal(new int[] {
+            this.numPrazoLocacao.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.numPrazoLocacao, "numPrazoLocacao");
+            this.numPrazoLocacao.Maximum = new decimal(new int[] {
             1000,
             0,
             0,
             0});
-            resources.ApplyResources(this.numPrazoLocacao, "numPrazoLocacao");
             this.numPrazoLocacao.Minimum = new decimal(new int[] {
             1,
             0,
@@ -513,11 +605,12 @@
             0,
             0,
             0});
+            this.numPrazoLocacao.ValueChanged += new System.EventHandler(this.numPrazoLocacao_ValueChanged);
             // 
             // dtFinalLocacao
             // 
-            this.dtFinalLocacao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             resources.ApplyResources(this.dtFinalLocacao, "dtFinalLocacao");
+            this.dtFinalLocacao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtFinalLocacao.Name = "dtFinalLocacao";
             // 
             // dtInicioLocacao
@@ -525,6 +618,7 @@
             this.dtInicioLocacao.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             resources.ApplyResources(this.dtInicioLocacao, "dtInicioLocacao");
             this.dtInicioLocacao.Name = "dtInicioLocacao";
+            this.dtInicioLocacao.ValueChanged += new System.EventHandler(this.dtInicioLocacao_ValueChanged);
             // 
             // txtForoComarca
             // 
@@ -542,6 +636,8 @@
             this.txtValorMensal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtValorMensal, "txtValorMensal");
             this.txtValorMensal.Name = "txtValorMensal";
+            this.txtValorMensal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValorMensal_KeyPress);
+            this.txtValorMensal.Leave += new System.EventHandler(this.txtValorMensal_Leave);
             // 
             // label27
             // 
@@ -567,38 +663,54 @@
             // 
             resources.ApplyResources(this.btnGerarContrato, "btnGerarContrato");
             this.btnGerarContrato.Name = "btnGerarContrato";
+            this.btnGerarContrato.TabStop = false;
             this.btnGerarContrato.UseVisualStyleBackColor = true;
             this.btnGerarContrato.Click += new System.EventHandler(this.btnGerarContrato_Click);
+            // 
+            // label23
+            // 
+            resources.ApplyResources(this.label23, "label23");
+            this.label23.Name = "label23";
+            // 
+            // rtbObservacao
+            // 
+            resources.ApplyResources(this.rtbObservacao, "rtbObservacao");
+            this.rtbObservacao.Name = "rtbObservacao";
             // 
             // FrmContratoLocacao
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.rtbObservacao);
+            this.Controls.Add(this.label23);
             this.Controls.Add(this.btnGerarContrato);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.gpLocatario);
-            this.Controls.Add(this.gpLocator);
+            this.Controls.Add(this.gpLocador);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "FrmContratoLocacao";
             this.Load += new System.EventHandler(this.FrmContratoLocacao_Load);
-            this.gpLocator.ResumeLayout(false);
-            this.gpLocator.PerformLayout();
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.FrmContratoLocacao_KeyUp);
+            this.gpLocador.ResumeLayout(false);
+            this.gpLocador.PerformLayout();
             this.gpLocatario.ResumeLayout(false);
             this.gpLocatario.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numVencimento)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numPrazoLocacao)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox gpLocator;
+        private System.Windows.Forms.GroupBox gpLocador;
         private System.Windows.Forms.ComboBox cbEstadoLocador;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox txtCidadeLocador;
@@ -606,8 +718,6 @@
         private System.Windows.Forms.ComboBox cbEstadoCivilLocador;
         private System.Windows.Forms.TextBox txtBairroLocador;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtNumeroLocador;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtEnderecoLocador;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtRGLocador;
@@ -622,7 +732,7 @@
         private System.Windows.Forms.TextBox txtNomeLocador;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox gpLocatario;
-        private System.Windows.Forms.ComboBox txtEstadoLocatario;
+        private System.Windows.Forms.ComboBox cbEstadoLocatario;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtCidadeLocatario;
         private System.Windows.Forms.Label label13;
@@ -656,6 +766,18 @@
         private System.Windows.Forms.DateTimePicker dtFinalLocacao;
         private System.Windows.Forms.DateTimePicker dtInicioLocacao;
         private System.Windows.Forms.Button btnGerarContrato;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.RichTextBox rtbObservacao;
+        private System.Windows.Forms.NumericUpDown numVencimento;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Button btnBuscarCepLocador;
+        private System.Windows.Forms.MaskedTextBox mkCEPLocador;
+        private System.Windows.Forms.TextBox txtNumeroLocador;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Button btnBuscarCepLocatario;
+        private System.Windows.Forms.MaskedTextBox mkCEPLocatario;
     }
 }
 
